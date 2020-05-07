@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ScreenSize} from './independent-test/directives/only-for-screen.directive';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'payever-test';
+  ScreenSize: typeof ScreenSize = ScreenSize;
 }
